@@ -1,0 +1,64 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: "Microsoft Yahei";
+}
+
+textarea {
+    resize: none;
+}
+
+img {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.c {
+    clear: both;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.width_max {
+    width: 100%;
+    float: left;
+}
+
+.to_be_center {
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+    position: relative;
+}
+#sub_box{
+    position: absolute;
+    top: 0.16rem;
+    left: 0;
+    color: #ffffff;
+    width: 100%;
+}
+#sub_box label{
+    width: 100%;
+    margin-top: 0.12rem;
+    text-align: center;
+    font-size: 0.26rem;
+}
+.free_input{
+    background: #8337ff;
+    border: 2px solid#ac81f0;
+}
+.free_input:focus{
+    border-color:#f6f505;
+}
+.free_sub{
+    width: 2.5rem;
+    height: 0.4rem;
+    background: #f82893;
+    border: 1px solid#f6f505;
+}
+.free_sub:active{
+    border: 2px solid#cccccc;
+}

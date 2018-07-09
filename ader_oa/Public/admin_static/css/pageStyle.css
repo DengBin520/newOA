@@ -1,0 +1,113 @@
+/*
+Sean自定义样式
+*/
+.width_25 {
+    width: 25%;
+}
+
+.Sean_page {
+
+}
+
+.prev {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: #777;
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    float: left;
+    line-height: 1.42857;
+    margin-left: -1px;
+    padding: 4px 10px;
+    position: relative;
+    text-decoration: none;
+}
+.prev:hover{
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+
+.num {
+    z-index: 2;
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    float: left;
+    color: #777;
+    line-height: 1.42857;
+    margin-left: -1px;
+    padding: 4px 10px;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+}
+.num:hover{
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+.end {
+    z-index: 2;
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    float: left;
+    color: #777;
+    line-height: 1.42857;
+    margin-left: -1px;
+    padding: 4px 10px;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+}
+.end:hover{
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+.first {
+    z-index: 2;
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    float: left;
+    color: #777;
+    line-height: 1.42857;
+    margin-left: -1px;
+    padding: 4px 10px;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+}
+.first:hover{
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+.current {
+    color: #777;
+    background-color: #f4f4f4;
+    color: #000000;
+    z-index: 2;
+    border: 1px solid #DDDDDD;
+    float: left;
+    line-height: 1.42857;
+    margin-left: -1px;
+    padding: 4px 10px;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+}
+.next{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #777;
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    float: left;
+    line-height: 1.42857;
+    margin-left: -1px;
+    padding: 4px 10px;
+    position: relative;
+    text-decoration: none;
+}.next:hover{
+     background-color: #f4f4f4;
+     cursor: pointer;
+ }
+#Sean_page{
+    float: right;
+}
